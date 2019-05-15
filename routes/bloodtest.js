@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const BloodTest = require("../models/bloodTest");
+const BloodTest = require("../models/bloodtest");
 
 //get all tests from database
 router.get("/", async (req, res) => {
