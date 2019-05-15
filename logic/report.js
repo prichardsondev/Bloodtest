@@ -1,4 +1,4 @@
-const BloodTest = require("../models/bloodTest");
+const BloodTest = require("../models/bloodtest");
 const BloodTestHighLow = require("../models/bloodtesthighlow");
 const BloodTestReport = require("../models/bloodtestreport");
 
