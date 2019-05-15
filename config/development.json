@@ -1,0 +1,3 @@
+{
+  "server": { "connectionstring": "mongodb://localhost/idexxnode" }
+}
