@@ -30,10 +30,10 @@ router.get("/:id", async (req, res) => {
 
 //post a pet to database
 router.post("/", async (req, res) => {
-  // let test = new BloodTest({
-  //   test: req.body.test,
-  //   result: req.body.result
-  // });
+  let test = new BloodTest({
+    test: req.body.test,
+    result: req.body.result
+  });
   // test = await test.save();
   // res.send(test);
 
