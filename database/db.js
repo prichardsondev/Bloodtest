@@ -1,8 +1,11 @@
 const mongoose = require("mongoose");
 const config = require("config");
 
+//local
 //let connectionString = config.get("server.connectionstring");
+//mlab (mongo atlas)
 let connectionString = "mongodb://user:user123@ds157956.mlab.com:57956/idexxnode";
+//let connectionString = "mongodb+srv://user:user123@cluster0-ukyug.mongodb.net/idexxnode?retryWrites=true";
 console.log(connectionString);
 
 module.exports = function () {
